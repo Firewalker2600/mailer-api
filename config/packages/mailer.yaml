@@ -1,3 +1,6 @@
 framework:
     mailer:
         dsn: '%env(MAILER_DSN)%'
+        envelope:
+            sender: 'your.sender@address.com'
+            recipients: [ 'test.with.your.email@testmail.com' ]
