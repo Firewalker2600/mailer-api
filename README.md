@@ -62,8 +62,10 @@ Example of input data
 }
 
 Example of mail html:
+
 ![image](https://github.com/Firewalker2600/mailer-api/assets/70068719/a4437f72-b5d7-4122-b9a4-0937f9cb69b4)
 
+# Solution
 EmailController handles /api/v1/send-email and validates POST requests using APIRequest.php validator
 If successful, it proceeds on storing the email in the DB and returns 202 accepted messages.
 
